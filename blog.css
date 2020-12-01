@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    font-family: "Nunito";
+}
+html{
+    /* margin: 40px; */
+    width: 990px;
+    height: 700px;
+}
+body{
+
+    background-color:gray;
+    width: 990px;
+    height: 700px;
+    align-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    display: grid;
+}
+h1{
+    background-color:white;
+       text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    width: 1540px;
+    height: 100%;
+    padding: 15px 0 0 0;
+    align-content: center;
+    
+}
+.outerbox{
+    margin-left: 270px;
+    margin-top: 1%;
+    display: flex;
+}
+.box1{
+       padding-top: 25px;
+       margin-left: 3%;
+       max-width: 300px;
+       height: 600px;
+
+}
+.box2{
+    max-width: 300px;
+    height: 650px;
+    padding-top: 6px;
+    margin-left: 2%;
+
+}
+.box3{
+    max-width: 300px;
+    height: 600px;
+    
+    margin-left: 2%;
+
+
+}
+.cinema{
+    background-color: white;
+    margin: 0%; 
+    padding: 0 0 5px 0;
+    max-width:290px;
+    height: 400px;
+    align-content: center;
+    align-items: center;
+   border: none;
+    border-radius: 10px;
+    }
+    .img{
+        background-image: url(https://i.pinimg.com/originals/89/15/e7/8915e712e3609de14317fb9aea3e834f.jpg) ;
+        width:90%;
+        height: 45%;
+        background-position: center;
+        background-size: 137%;
+        background-repeat: no-repeat;
+        border: none;
+        border-radius:10px;
+        box-shadow: 0 4px 8px 0 gray; 
+       position: relative;
+      top: -20px;
+      left: 15px;
+            }
+            /* .img:hover{
+                position: relative;
+                top:-20px;
+                left: 10px;
+              
+
+            } */
+.twitter{
+    margin: 27% 0 0 0;
+    padding: 5px 5px 0 5px;
+    max-width:290px;
+    height: 150px;
+    align-content: center;
+    align-items: center;
+    border: 1px solid olive;
+    border-radius: 10px;
+    background-color: rgb(54, 159, 201);
+    color: white;
+}
+.foot{
+    display: flex;
+    align-items:normal;
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 0px;
+    height: 80px;
+}
+.foot1{
+    display: flex;
+    align-items:normal;
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 0px;
+    height: 40px;
+}
+.pic{
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius:50%;
+    align-items: center;
+}
+.world{
+    margin: 20px 0 0 0;
+    padding: 25px 5px 0 5px;
+    max-width:290px;
+    height: 150px;
+    /* align-content: center;
+    align-items: center; */
+    border: 1px solid olive;
+    border-radius: 10px;
+    background-color: white;
+    color:black;
+    /* display: flex;
+    flex-direction: row; */
+
+}
+.law{
+    margin: 25px 0 0 0;
+    max-width:290px;
+    height: 380px;
+    /* align-content: center;
+    align-items: center; */
+    border: 1px solid olive;
+    border-radius: 10px;
+    background-color: white;
+    color:black;
+    /* display: flex;
+    flex-direction: row; */
+
+}
+
+    .img1{
+        background-image: url(https://www.parkgrandlondon.co.uk/blog/wp-content/uploads/2015/11/281702483.jpg) ;
+        width:90%;
+        height: 50%;
+        background-position: center;
+        background-size: 137%;
+        background-repeat: no-repeat;
+        border: none;
+        border-radius:10px;
+        box-shadow: 0 4px 8px 0 gray; 
+        position: relative;
+        top: -20px;
+        left: 15px;
+            }
+
+.music{
+    background-color: white;
+    margin-top: 8.5%; 
+    padding: 0 0 5px 0;
+    max-width:290px;
+    height: 400px;
+    align-content: center;
+    align-items: center;
+   border: none;
+    border-radius: 10px;
+    }
+    .img2{
+        background-image: url(https://cdn.shopify.com/s/files/1/0156/0137/files/Pic_1_d449f0f7-1b7d-4bea-8190-931dff739218_grande.jpg?v=1565074839) ;
+        width:90%;
+        height: 45%;
+        background-position: center;
+        background-size: 137%;
+        background-repeat: no-repeat;
+        border: none;
+        border-radius:10px;
+        box-shadow: 0 4px 8px 0 gray; 
+        position: relative;
+        top: -20px;
+        left: 15px;
+            }
+.news{
+    margin: 7% 0 0 0;
+    padding: 5px 5px 0 5px;
+    max-width:290px;
+    height: 150px;
+    align-content: center;
+    align-items: center;
+    border: 1px solid olive;
+    border-radius: 10px;
+    background-color: rgb(236, 44, 44);
+    color: white;
+}
